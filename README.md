@@ -6,7 +6,7 @@ Crud de basico de productos
 
 - PHP 8.0+
 - PostgreSQL
-- Composer
+- Laragon
 - Node
 
 ## Ejecucion
@@ -28,12 +28,12 @@ composer install
 3. Configurar la base de datos en el archivo .env
 
 ```env
-DB_CONNECTION=pgsql
+DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_PORT=5432
+DB_PORT=3306
 DB_DATABASE=products_crud
-DB_USERNAME=dbuser
-DB_PASSWORD=dbpassword
+DB_USERNAME=root
+DB_PASSWORD=your_mysql_password
 ```
 
 4. Generar la base de datos
