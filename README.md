@@ -4,7 +4,7 @@ Crud de basico de productos
 
 ## Requerimientos
 
-- PHP 8.0+
+- PHP 8.4+
 - PostgreSQL
 - Laragon
 - Node
